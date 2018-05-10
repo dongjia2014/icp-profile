@@ -11,7 +11,8 @@
 #### 1.2接口概述 ####
 > 接口类：
 
-<pre>com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardQueryDubbo
+<pre>
+com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardQueryDubbo
 </pre>
 
 > 接口方法名：
