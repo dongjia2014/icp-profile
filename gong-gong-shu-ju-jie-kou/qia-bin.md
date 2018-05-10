@@ -28,6 +28,7 @@ com.suixingpay.common.rpc.v2.RpcRequest&lt;SesBnkCardBinInfoReq>
 </pre>
 
 > 输出业务参数类型：
+
 <pre>
 com.suixingpay.common.rpc.v2.RpcResponse&lt;SesBnkCardBinInfoRsp>
 </pre>
