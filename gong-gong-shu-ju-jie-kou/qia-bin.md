@@ -10,16 +10,19 @@
 
 #### 1.2接口概述 ####
 > 接口类：
+
 <pre>
 com.suixingpay.bap.api.ses.SesCardBinQueryDubbo
 </pre>
 
 > 接口方法名：
+
 <pre>
 crdBinQry    
 </pre>
 
 > 输入业务参数类型：
+
 <pre>
 com.suixingpay.common.rpc.v2.RpcRequest&lt;SesBnkCardBinInfoReq>
 </pre>
