@@ -1,6 +1,7 @@
 # 联行 #
  
 ************************
+************************
 ### 1 联行地域列表查询接口###
 
 #### 1.1接口描述 ####
@@ -18,11 +19,11 @@
 </pre>
 ##### 输入业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcRequest<  >
 </pre>
 ##### 输出业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcResponse<  >
 </pre>
 
 
@@ -47,8 +48,8 @@ xx| String | 空 | 省ID
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | XXXX | 非空 | 业务参数
 
 XXXX< LIST >：
@@ -68,6 +69,7 @@ code | 描述
 ---|---
 SES00000| 成功
 
+************************
 
 ### 2 银行地域查询接口###
 
@@ -86,11 +88,11 @@ SES00000| 成功
 </pre>
 ##### 输入业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcRequest<  >
 </pre>
 ##### 输出业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcResponse<  >
 </pre>
 
 
@@ -114,8 +116,8 @@ xx| String | 非空 | 地域ID
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | XXXX | 非空 | 业务参数
 
 XXXX：
@@ -136,6 +138,7 @@ code | 描述
 SES00000| 成功
 
 
+************************
 
 ### 3 银行列表查询接口###
 
@@ -154,11 +157,11 @@ SES00000| 成功
 </pre>
 ##### 输入业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcRequest<  >
 </pre>
 ##### 输出业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcResponse<  >
 </pre>
 
 
@@ -181,8 +184,8 @@ xx| String | 空 | CDE_FLG：<br/>0：<br/>1：
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | XXXX | 非空 | 业务参数
 
 XXXX< LIST >：
@@ -201,6 +204,7 @@ code | 描述
 ---|---
 SES00000| 成功
 
+************************
 
 ### 4 银行查询接口###
 
@@ -219,11 +223,11 @@ SES00000| 成功
 </pre>
 ##### 输入业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcRequest<  >
 </pre>
 ##### 输出业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcResponse<  >
 </pre>
 
 
@@ -248,8 +252,8 @@ xx| String | 空 | 银行机构编码
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | XXXX | 非空 | 业务参数
 
 XXXX：
@@ -269,6 +273,7 @@ code | 描述
 SES00000| 成功
 
 
+************************
 
 ### 5 联行列表查询接口###
 
@@ -287,11 +292,11 @@ SES00000| 成功
 </pre>
 ##### 输入业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcRequest<  >
 </pre>
 ##### 输出业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcResponse<  >
 </pre>
 
 
@@ -317,8 +322,8 @@ xx| String | 空 | 联行名称关键字
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | XXXX | 非空 | 业务参数
 
 XXXX< LIST >：
@@ -343,6 +348,9 @@ code | 描述
 ---|---
 SES00000| 成功
 
+
+************************
+
 ### 6 联行查询接口###
 
 #### 6.1接口描述 ####
@@ -360,11 +368,11 @@ SES00000| 成功
 </pre>
 ##### 输入业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcRequest<  >
 </pre>
 ##### 输出业务参数类型： #####
 <pre>
-
+com.suixingpay.common.rpc.v2.RpcResponse<  >
 </pre>
 
 
@@ -388,8 +396,8 @@ xx| String | 空 | 联行号
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | XXXX | 非空 | 业务参数
 
 XXXX：
