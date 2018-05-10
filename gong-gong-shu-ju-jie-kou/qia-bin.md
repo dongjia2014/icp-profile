@@ -1,6 +1,7 @@
 # 卡BIN #
  
 ************************
+************************
 ### 1 卡bin匹配查询接口###
 
 #### 1.1接口描述 ####
@@ -48,8 +49,8 @@ qryCardNo| String | 非空 | 查询卡号
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
-uuid | String | 空 | 请求流水ID
-sysId | String | 非空 | 系统编码
+code | String | 非空 | 返回码
+message | String | 非空 | 返回信息
 object | SesBnkCardBinInfo | 非空 | 业务参数
 
 SesBnkCardBinInfo：
