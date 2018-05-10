@@ -9,23 +9,24 @@
 通过传入的卡号进行卡bin查询匹配，返回相应查询信息。
 
 #### 1.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 com.suixingpay.bap.api.ses.SesCardBinQueryDubbo
 </pre>
-##### 接口方法名： #####
+
+> 接口方法名：
 <pre>
 crdBinQry    
 </pre>
-##### 输入业务参数类型： #####
+
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest< SesBnkCardBinInfoReq >
-商户信息Bean
+com.suixingpay.common.rpc.v2.RpcRequest&lt;SesBnkCardBinInfoReq>
 </pre>
-##### 输出业务参数类型： #####
+
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse< SesBnkCardBinInfoRsp >
-商户信息Bean
+com.suixingpay.common.rpc.v2.RpcResponse&lt;SesBnkCardBinInfoRsp>
 </pre>
 
 

@@ -9,21 +9,21 @@
 查询联行地域列表信息。
 
 #### 1.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
 
 
@@ -78,21 +78,21 @@ SES00000| 成功
 查询银行地域信息。
 
 #### 2.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
 
 
@@ -147,21 +147,21 @@ SES00000| 成功
 查询银行列表信息。
 
 #### 3.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
 
 
@@ -213,21 +213,21 @@ SES00000| 成功
 查询银行信息。
 
 #### 4.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
 
 
@@ -282,21 +282,21 @@ SES00000| 成功
 查询联行列表信息。
 
 #### 5.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
 
 
@@ -358,23 +358,22 @@ SES00000| 成功
 查询联行信息。
 
 #### 6.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
-
 
 #### 6.3 参数说明 ####
 ##### 输入参数： #####

@@ -9,21 +9,21 @@
 查询商户银行卡列表信息。
 
 #### 1.2接口概述 ####
-##### 接口类：#####
+> 接口类：
 <pre>
 com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardQueryDubbo
 </pre>
-##### 接口方法名：#####
+> 接口方法名：
 <pre>
 queryStmBankCardByUuid    
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest< QueryUsrStmBnkRequest >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;QueryUsrStmBnkRequest>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse< ResponseMsgStmBnk >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;ResponseMsgStmBnk>
 </pre>
 
 
@@ -51,7 +51,7 @@ code | String | 非空 | 返回码
 message | String | 非空 | 返回信息
 object | ResponseMsgStmBnk | 非空 | 业务参数
 
-ResponseMsgStmBnk < listReturn >：
+ResponseMsgStmBnk &lt;listReturn>：
 
 字段名称 | 类型 | 输入项 | 备注
 ---|---|---|---
@@ -81,21 +81,21 @@ code | 描述
 添加商户银行卡信息。
 
 #### 2.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardDubbo
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
 addUsrStmBnk  
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest< BapAddUsrStmBnkRequest >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;BapAddUsrStmBnkRequest>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse< BapAddUsrStmBnkResponse >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;BapAddUsrStmBnkResponse>
 </pre>
 
 
@@ -156,21 +156,21 @@ code | 描述
 修改商户银行卡信息。
 
 #### 3.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardDubbo
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
 updateUsrStmBnk  
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest< BapUpdateUsrStmBnkRequest >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;BapUpdateUsrStmBnkRequest>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse< BapUpdateUsrStmBnkResponse >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;BapUpdateUsrStmBnkResponse>
 </pre>
 
 
@@ -234,21 +234,21 @@ code | 描述
 删除商户银行卡信息。
 
 #### 4.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardDubbo
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
 deleteUsrStmBnk  
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest< BapDeleteUsrStmBnkRequest >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;BapDeleteUsrStmBnkRequest>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse< BapDeleteUsrStmBnkResponse >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;BapDeleteUsrStmBnkResponse>
 </pre>
 
 
@@ -306,21 +306,21 @@ code | 描述
 设置商户银行卡为默认结算卡信息。
 
 #### 5.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 com.suixingpay.icp.ums.dubbo.bank.UmsStmBankCardDubbo
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
 setDefaultStmAcct  
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest< BapUsrStmBnkDefAccRequest >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;BapUsrStmBnkDefAccRequest>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse< BapUsrStmBnkDefAccResponse >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;BapUsrStmBnkDefAccResponse>
 </pre>
 
 

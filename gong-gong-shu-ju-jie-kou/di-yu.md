@@ -1,4 +1,4 @@
-# 地域 # 
+# 地域  #
  
 ************************
 ************************
@@ -9,21 +9,21 @@
 查询地域列表信息。
 
 #### 1.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
 
 
@@ -80,23 +80,22 @@ SES00000| 成功
 查询地域信息。
 
 #### 2.2接口概述 ####
-##### 接口类： #####
+> 接口类：
 <pre>
 
 </pre>
-##### 接口方法名： #####
+> 接口方法名：
 <pre>
     
 </pre>
-##### 输入业务参数类型： #####
+> 输入业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcRequest<  >
+com.suixingpay.common.rpc.v2.RpcRequest&lt;>
 </pre>
-##### 输出业务参数类型： #####
+> 输出业务参数类型：
 <pre>
-com.suixingpay.common.rpc.v2.RpcResponse<  >
+com.suixingpay.common.rpc.v2.RpcResponse&lt;>
 </pre>
-
 
 #### 2.3 参数说明 ####
 ##### 输入参数： #####
